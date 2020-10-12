@@ -4,10 +4,10 @@ This is just a place to save part of the code I use in my projects and therefore
 
 ## Index
 
-- [CSS](/docs/css)
-- [git](/docs/git)
-- [JavaScript](/docs/javascript)
-- [node](/docs/node)
+- [CSS](/docs/css/)
+- [git](/docs/git/)
+- [JavaScript](/docs/javascript/)
+- [node](/docs/node/)
 
 ## Code examples
 
@@ -15,5 +15,5 @@ This is just a place to save part of the code I use in my projects and therefore
 
 ## My projects
 
- + [projects](/docs/projects)
+ + [projects](/docs/projects/)
  + [Personal web](/docs/projects/joseantoniogonzalezjerez.md)
