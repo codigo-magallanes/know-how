@@ -58,7 +58,7 @@ git remote add upstream <CODE COPIED FROM ORIGINAL REPO>
 
  - Check new configuration again with `` `git remote -v` ``
 
-Now I can also check how are the branches of the original repo and the new fork connected:
+Now I can also look for updates in the original repo to set them to _syncronize_ with the files in my PC clone:
 
 ``` sh
  git fetch upstream
@@ -84,7 +84,7 @@ Now I can also check how are the branches of the original repo and the new fork 
 
 ## Upload my changes to the original repo
 
-
+After making some changes in the PC files click in the '__Synchronize Changes__' icon in VS Code. This will upload the changes to the '_Fork_' in our repository.
 
 ## Resources
 
