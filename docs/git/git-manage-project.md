@@ -66,10 +66,24 @@ git checkout master
 git checkout -b main
 ```
 
-Other way to change branches is with:
+It a branch with that name does not exist it prompts a message to enable you to create it.
+
+### Update files from repo
+
+To update the files from the repo:
 
 ``` sh
-git switch <NEW BRANCH>
+git pull
 ```
 
-It a branch with that name does not exist it prompts a message to enable you to create it.
+### Upload files to repo
+
+To upload new code to the repo:
+
+```sh
+git push
+```
+
+### Resources
+
+- [Git commands from Linux Terminal](https://www.unixmen.com/use-git-commands-linux-terminal/)
