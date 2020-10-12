@@ -1,5 +1,8 @@
 # Know How
 
+## v0.1.2
+ - Small changes in the [git section](/docs/git)
+ 
 ## v0.1.1
  - Git section quite advanced [git](/docs/git/)
  - Also initialized, but not ready:
