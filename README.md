@@ -11,5 +11,5 @@ This is just a place to save part of the code I use in my projects and therefore
 
 ## My projects
 
-+ [projects](/docs/projects)
+ + [projects](/docs/projects)
  + [Personal web](/docs/projects/joseantoniogonzalezjerez.md)
