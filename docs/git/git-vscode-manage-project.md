@@ -16,39 +16,7 @@ Once accepted a broser window opens asking for permission to connect to [GitHub]
 
 In my case, the project was uploaded to the _master branch_ in _GitHub_.
 
-#### Initialyze project in PC
-
-First we need the _git_ package installed in our computer:
-
-```sh
-sudo apt-get install git
-```
-
-In the directory of the project we open a terminal and execute:
-
-```sh
-git init
-```
-
-This will create the necessary files to the project
-
-#### Link projects
-
-To link the _GitHub_ project with the project in our PC we have to execute. again from a terminal in the project directory, the command `remote add` with the _GitHub project URL_:
-
-```sh
-git remote add origin https://github.com/codigo-magallanes/_project_
-```
-
-#### Check everything is OK
-
-```sh
-git status
-```
-
-### VS Code
-
-#### Open project
+### Open project from PC
 
 _Right-click_ on the directory and check on _Open with another application_. Now select VS Code from the list.
 
@@ -63,19 +31,13 @@ Once the project directory is opened with VS Code we can see on the left of the 
 
 Click on the _main branch_ from the configuration menu. If it is not available close the window and try again.
 
-#### Get the files created in by the website
+### Update files from GitHub to your local repo
 
-When created the project in _GitHub_ some files can be created:
+When VS Code detects files updated in the __GitHub repo__ it prompts an _icon_ next to each updated file (a blue arrow pointing down)
 
-- .gitignore
-- README.md
-- LICENSE
+We can simply click in the _Synchronize Changes_ icon next to the branch name in the _status bar_.
 
-We need to download them to our directory.
-
-With VS Code we can simply click in the _Synchronize Icon_ next to the branch name.
-
-#### Upload the project
+### Upload the project
 
 On the left of VS Code, there is a _menu bar_ with some Icons. Click on the '_Source Control_' button. Now you can see the files that need to be uploaded. Click on the **+** icon of any file you want to _commit_ and _Stage the changes_. These files are now ready to be _commited_.
 

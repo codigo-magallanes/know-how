@@ -2,7 +2,18 @@
 
 This makes a copy of a public repository in your account.
 
-You can then modify it and update it in a separate _branch_ of the original repository.
+You can then modify it and update it as a _separate branch_ of the original repository.
+
+A short description of the steps to do so is:
+
+ + Fork the repo (from the GitHub website)
+ + Clone the repo to your computer
+ + Make changes to the files in your computer
+ + _Stage Changes_ and _Commit_
+ + Connect local repo to remote repo
+ + Push new code to your repo
+
+After this, the owner of the original repo can check on the __Pull request__ and accept it or remove it.
 
 ### New Fork
 
@@ -45,7 +56,7 @@ After clicking the __Fork__ button we are redirected to the new repo in our acco
  origin git@github.com:<USER>/<REPO>.git (push)
 ```
 
-### Sync your _Fork_ whith the original repo
+### Connect your local repo to the remote repo
 
  - In the original repos page, copy the code for _clonning_ the repo
  - Back in the terminal, inside the repo's directory execute:
@@ -86,7 +97,7 @@ Now I can also look for updates in the original repo to set them to _syncronize_
 
 After making some changes in the PC files click in the '__Synchronize Changes__' icon in VS Code. This will upload the changes to the '_Fork_' in our repository.
 
-From the updated repo I can make a __Pull Request__.
+Since our repo is connected to the original repo,  the updated changes appear in the original repo as a __Pull Request__.
 
 ### Accepting the Pull Request
 
@@ -97,3 +108,4 @@ Once in the _Pull request_ page the owner can merge changes clicking in the butt
 
 - [GitHub Docs: fork a repo](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 - [GitHub Docs: synchronize fork](https://docs.github.com/es/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+ - [Digital Ocean: fork, clone, make changes and push to GitHub](https://www.digitalocean.com/community/tutorials/fork-clone-make-changes-push-to-github)
