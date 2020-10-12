@@ -10,7 +10,6 @@ A parte de estos parámetros puede recibir otro número de parámetros que se pa
  setTimeout(function, milliseconds, param1, param2, ...)
  ```
 
-
  ### Recursos
 
  [w3Schools: setTimeout()](https://www.w3schools.com/jsref/met_win_settimeout.asp)
