@@ -9,6 +9,10 @@ This is just a place to save part of the code I use in my projects and therefore
 - [JavaScript](/docs/javascript)
 - [node](/docs/node)
 
+## Code examples
+
+ - [Promise.all](/code/promise_all.html)
+
 ## My projects
 
  + [projects](/docs/projects)

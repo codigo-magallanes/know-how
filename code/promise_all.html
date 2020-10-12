@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise.all</title>
+  </head>
+  <body>
+      <div class="show-data"></div>
+    <script type="module">
+        import { showData } from './modules/show-in-screen.js'
+      // A simple promise that resolves after a given time
+      const timeOut = (t) => {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            if (t === 2000) {
+              reject(`Rejected in ${t}`);
+            } else {
+              resolve(`Completed in ${t}`);
+            }
+          }, t);
+        });
+      };
+      const durations = [1000, 2000, 3000];
+
+      const promises = durations.map((duration) => {
+        return timeOut(duration).catch((e) => e); // Handling the error for each promise.
+      });
+
+      Promise.all(promises)
+        .then((response) => {
+            console.log(response) // ["Completed in 1000", "Rejected in 2000", "Completed in 3000"]
+            return response
+        })
+        .then(showData)
+        .catch((error) => console.log(`Error in executing ${error}`));
+    </script>
+  </body>
+</html>
