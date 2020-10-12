@@ -50,9 +50,11 @@ _Right-click_ on the directory and check on _Open with another application_. Now
 __GitHub__ has recently moved their default _project branch_ from __master__ to __main__ to avoid racist language, but at the momment the git package still uses __master__ as the default branch on our projects.
 Therefore we need to adjust this.
 
+One easy way to do this with VS Code is selecting the options menu and clicking in '_Branch/Rename Branch_'. Now we change the name to __main__.
+
 Once the project directory is opened with VS Code we can see on the left of the status bar the branch of the project we are registered to. If it is _master_ we click on it and a config pop up will appear.
 
- Click on the _main branch_ from the configuration menu. If it is not available close the window and try again.
+Click on the _main branch_ from the configuration menu. If it is not available close the window and try again.
 
 #### Get the files created in by the website
 
