@@ -1,4 +1,4 @@
-## Fork a repository
+## git + GitHub + VS Code: Fork a repository
 
 This makes a copy of a public repository in your account.
 
