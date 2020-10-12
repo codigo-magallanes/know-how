@@ -86,6 +86,13 @@ Now I can also look for updates in the original repo to set them to _syncronize_
 
 After making some changes in the PC files click in the '__Synchronize Changes__' icon in VS Code. This will upload the changes to the '_Fork_' in our repository.
 
+From the updated repo I can make a __Pull Request__.
+
+## Accepting the Pull Request
+
+New _requests_ will show up in the _main repo_, for the owner to approve. They appear in the __Pull requests__ tab.
+Once in the _Pull request_ page the owner can merge changes clicking in the button '__Merge pull request__'. Then he can change the 'commit' and update the repo.
+
 ## Resources
 
 - [GitHub Docs: fork a repo](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)

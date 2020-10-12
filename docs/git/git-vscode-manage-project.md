@@ -1,26 +1,20 @@
-# git
 ## git + GitHub + VS Code
-### log user
 
-### GitHub website
-
-#### Create a new project
+### Create a new project
 
 In the [git-hub](https://github.com) website we create a _new project_. Once created we copy the _URL_ to the project.
-
-### PC Terminal
 
 #### Initialyze project in PC
 
 First we need the _git_ package installed in our computer:
 
-```
+``` sh
 sudo apt-get install git
 ```
 
 In the directory of the project we open a terminal and execute:
 
-```
+``` sh
 git init
 ```
 
@@ -30,12 +24,13 @@ This will create the necessary files to the project
 
 To link the _GitHub_ project with the project in our PC we have to execute. again from a terminal in the project directory, the command ```remote add``` with the _GitHub project URL_:
 
-```
+``` sh
 git remote add origin https://github.com/codigo-magallanes/_project_
 ```
 
 #### Check everything is OK
-```
+
+``` sh
 git status
 ```
 
