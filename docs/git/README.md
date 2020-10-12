@@ -10,5 +10,5 @@ You can create a git project in many different ways:
 
 Other topics to consult here are:
 
- - [Fork a repository](./fork-repository.md)
+ - [Fork a repository](./git-github-vscode-fork-repository.md)
  - [Manage a forked repo](./git-vscode-manage-fork-repo.md)
