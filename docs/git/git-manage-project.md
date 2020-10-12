@@ -51,3 +51,25 @@ And to check the project:
 ```sh
 git status
 ```
+
+### Select the default branch
+
+When I create a new project in my computer '_git_' still creates the __master__ branch as default. GitHub has decided to change the default branch to __main__ so, in case we want to change from _master_ to _main_ branches from the terminal we do:
+
+``` sh
+// to check the actual branch
+git branch
+// to change branch to master
+git checkout master
+// output if exists -> Already on 'master'. Your branch is up-to-date with ...
+// output if it does not match to our branch -> error: pathspec 'master' did not match any file....
+git checkout -b main
+```
+
+Other way to change branches is with:
+
+``` sh
+git switch <NEW BRANCH>
+```
+
+It a branch with that name does not exist it prompts a message to enable you to create it.
