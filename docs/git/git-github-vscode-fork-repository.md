@@ -75,35 +75,33 @@ The parameter '-b' creates the branch if it did not exist.
 
 ### Connect your local repo to the remote repo
 
- - In the original repos page, copy the code for _clonning_ the repo
- - Back in the terminal, inside the repo's directory execute:
-
+ 1. In the original repos page, copy the code for _clonning_ the repo
+ 1. Back in the terminal, inside the repo's directory add the original as remote repo. You can use any name. _upstream_ is used by default:
  
+    ``` sh
+    git remote add upstream <CODE COPIED FROM ORIGINAL REPO>
+    ```
 
-``` sh
-git remote add upstream <CODE COPIED FROM ORIGINAL REPO>
- ```
+ 1. Check new configuration again with `` `git remote -v` ``
 
- - Check new configuration again with `` `git remote -v` ``
+ 1. Enable the fork to listen for changes in the main repo (use the name given before)
 
-Now I can also look for updates in the original repo to set them to _syncronize_ with the files in my PC clone:
+    ``` sh
+    git fetch upstream
 
-``` sh
- git fetch upstream
+    // output (approx.)
+    .
+    ..
+    ...
+    From github.com:<ORIGINAL REPO>
+    * [new branch]     main    ->  upstream/main
+    ```
 
- // output (approx.)
- .
- ..
- ...
- From github.com:<ORIGINAL REPO>
- * [new branch]     main    ->  upstream/main
- ```
+ 1. Merge any changes from the original repo to the project clone in my PC, accordingly to the info above, with: 
 
- Then I merge the original repo to the project clone in my PC, acconrdingly to the info above, with: 
-
-``` sh
- git merge upstream/main
- ```
+    ``` sh
+    git merge upstream/main
+    ```
 
  Now the files in my PC are updated with the new changes from the original repo.
 
