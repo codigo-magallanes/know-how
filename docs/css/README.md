@@ -2,6 +2,6 @@
 
 ### Índice
 
-    + Propiedades
+ + Propiedades
      - [background](./background.md)
      - [otras propiedades](./propiedades.md)
