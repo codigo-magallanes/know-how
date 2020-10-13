@@ -1,5 +1,7 @@
  ## JavaScript: Promises
 
+  [First version of promises](./promise.md)
+
  ### Sintaxis
 
  The sintaxis of a _Promise_ has two parts. First is the declaration of the _Promise_ which is done with the ```new Promise((resolve,reject) => {})``` code:
