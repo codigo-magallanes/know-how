@@ -1,19 +1,19 @@
-# CSS: Propiedades
+## CSS: Propiedades
 
-## object-fit
+### object-fit
 
  Determina el comporamiento de un elemento con respecto a su contenido
 
-### Recursos
+#### Recursos
 
 [CSS Tricks](https://css-tricks.com/almanac/properties/o/object-fit/)
 [CSS Tricks](https://css-tricks.com/on-object-fit-and-object-position/)
 
-## object-position
+### object-position
 
 Se suele emplear junto a _object-fit_. Determina la posición de un elemento con respecto a su contenedor.
 
-``` css
+```
 img {
   object-fit: none;
   object-position: 50% 50%; /* default value: image is centered*/
@@ -22,17 +22,17 @@ img {
 
 En este ejemplo coloca la imagen en el centro de su contenedor.
 
-### Recursos
+#### Recursos
 
 [CSS Tricks](https://css-tricks.com/almanac/properties/o/object-position/)
 [CSS Tricks](https://css-tricks.com/on-object-fit-and-object-position/)
 
-## overflow
+### overflow
 
 Determina lo que sucede si el contenido de un elemento es mayor al contenedor.
 Se puede utilizar para ocultar la _barra de desplazamiento_.
 
-### Valores permitidos:
+#### Valores permitidos:
 visible	The overflow is not clipped. It renders outside the element's box. This is default	
 hidden	The overflow is clipped, and the rest of the content will be invisible	
 scroll	The overflow is clipped, but a scroll-bar is added to see the rest of the content	
@@ -40,16 +40,16 @@ auto	If overflow is clipped, a scroll-bar should be added to see the rest of the
 initial	Sets this property to its default value. Read about initial	
 inherit	Inherits this property from its parent element. Read about inherit
 
-### Ejemplos
+#### Ejemplos
 
 [Código con ejemplos](https://www.w3schools.com/cssref/playit.asp?filename=playcss_overflow&preval=initial)
 [Ocultar barra de desplazamiento](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp)
 
-## vertical-align
+### vertical-align
 
  Determina la posición vertical del elemento. Puede tomar los siguientes valores:
 
-``` css
+```
 Value	Description	Play it
 baseline	The element is aligned with the baseline of the parent. This is default	
 length	Raises or lower an element by the specified length. Negative values are allowed. Read about length units	
@@ -65,6 +65,6 @@ initial	Sets this property to its default value. Read about initial
 inherit	Inherits this property from its parent element. Read about inherit
 ```
 
-### Recursos
+#### Recursos
 
 [vertical-align w3schools](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)

@@ -1,6 +1,6 @@
-# CSS: Background
+## CSS: Background
 
-## Background
+### Background
 
 background admite varias opcines de configuración del fondo de un elemento:
 
@@ -25,11 +25,11 @@ inherit	Inherits this property from its parent element. Read about inherit	2ss
 
 ```
 
-### background-repeat
+#### background-repeat
 
 [background-repeat](https://www.w3schools.com/cssref/pr_background-repeat.asp)
 
-### background-size
+#### background-size
 
 Valores aceptados:
 
@@ -44,11 +44,9 @@ initial	Sets this property to its default value. Read about initial
 inherit	Inherits this property from its parent element. Read about inherit
 ```
 
-## Recursos
+### Recursos
 
-[background-size Mozilla developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images)
-[background-size w3schools](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
-## Recursos
-
-[background w3schools](https://www.w3schools.com/cssref/css3_pr_background.asp)
-[background shorthand](https://www.w3schools.com/css/css_background_shorthand.asp)
+ + [background-size Mozilla developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images)
+ + [background-size w3schools](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
+ + [background w3schools](https://www.w3schools.com/cssref/css3_pr_background.asp)
+ + [background shorthand](https://www.w3schools.com/css/css_background_shorthand.asp)
