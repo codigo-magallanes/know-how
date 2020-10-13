@@ -66,7 +66,9 @@ git checkout master
 git checkout -b main
 ```
 
-It a branch with that name does not exist it prompts a message to enable you to create it.
+The parameter '-b' creates the branch if it did not exist.
+
+ Also be aware that the _checkout_ command is also used to undo a _Stage Change_
 
 ### Update files from repo
 
@@ -75,7 +77,41 @@ To update the files from the repo:
 ``` sh
 git pull
 ```
+### Comprueba los cambios en el código
 
+ Para comprobar que cambios se han hecho en el código se ejecuta:
+
+ ``` sh
+ git status
+ ```
+
+  If changes have been made the ouput will be something like:
+
+  ``` sh
+  $ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   docs/git/README.md
+	modified:   docs/git/git-github-vscode-fork-repository.md
+	modified:   docs/git/git-manage-project.md
+	deleted:    docs/git/git-vscode-manage-fork-repo.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	docs/git/git-github-vscode-manage-fork-repo.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+Here we see modified files and one new file _(Untracked files: doc/git/git-github-vscode-manage-fork-repo.md)
+### Stage Changes
+
+ 
 ### Upload files to repo
 
 To upload new code to the repo:

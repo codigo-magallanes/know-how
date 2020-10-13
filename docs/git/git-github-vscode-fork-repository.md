@@ -32,15 +32,11 @@ After clicking the __Fork__ button we are redirected to the new repo in our acco
  - Open a terminal in the directory where you want to copy the repo.
  - Execute the command:
 
- 
-
 ``` sh
  git clone <CODE COPIED FROM GITHUBS PAGE>
  ```
 
  You can check everything is OK with:
-
- 
 
 ``` sh
  cd <REPOS DIRECTORY>
@@ -49,29 +45,11 @@ After clicking the __Fork__ button we are redirected to the new repo in our acco
 
  This command will output the origin address to your repo for _fetches_ and _pushes_
  
-
 ``` sh
  //output
  origin git@github.com:<USER>/<REPO>.git (fetch)
  origin git@github.com:<USER>/<REPO>.git (push)
 ```
-
-### Decide the branch you will be working with
-
-When I create a new project in my computer '_git_' still creates the __master__ branch as default. GitHub has decided to change the default branch to __main__ so, in case we want to change from _master_ to _main_ branches from the terminal we do:
-
-``` sh
-// to check the actual branch
-git branch
-// to change branch to master
-git checkout master
-// output if exists -> Already on 'master'. Your branch is up-to-date with ...
-// output if it does not match to our branch -> error: pathspec 'master' did not match any file....
-git checkout -b main
-```
-
-
-The parameter '-b' creates the branch if it did not exist.
 
 ### Connect your local repo to the remote repo
 
