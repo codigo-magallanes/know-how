@@ -10,7 +10,7 @@ Se puede crear un nuevo proyecto de diferentes maneras con diferentes herramient
 
 Administrar cambios
 
- - [Administrar un repositorio desde la consola (Linux)](./git/actualizaciones-repo.md)
+ - [Administrar un repositorio desde la consola (Linux)](./git-actualizaciones-repo.md)
 
 Otras funciones:
 
