@@ -96,9 +96,9 @@ El siguiente paso es agrupar los archivos para ser subidos al repositorio. Este 
 Para esto ejecutamos el comando:
 
 ```sh
-$ git commit -m "nuevo contenido y traducción. @codigo-magallanes, necesita revisión"
+$ git commit -m "nuevo contenido y traducción. @codigo-magallanes"
 // respuesta
-[main 58f177d] nuevo contenido y traducción al español de contenido anterior. @codigo-magallanes, necesita revisión
+[main 58f177d] nuevo contenido y traducción. @codigo-magallanes
 3 files changed, 38 insertions(+), 24 deletions(-)
 ```
 

@@ -1,6 +1,14 @@
- ## JavaScript: Promises
+ # JavaScript: Promesas
 
   [First version of promises](./promise.md)
+
+
+## Indice
+
+ + [Promise.all()](/docs/javascript/promises/promise.all.md)
+ + [Promise.allSettled()](/docs/javascript/promises/promise.all-settled.md)
+ + [Promise.race](/docs/javascript/promises/promise.race.md)
+ + [Promises: handle errors](/docs/javascript/promises/promises-handle-error.md)
 
  ### Sintaxis
 
@@ -32,10 +40,3 @@ promise.then(function(result) {
   console.log(err); // Error: "It broke"
 });
 ```
-
-### More about Promises
-
- + [Promise.all()](/docs/javascript/promises/promise.all.md)
- + [Promise.allSettled()](/docs/javascript/promises/promise.all-settled.md)
- + [Promise.race](/docs/javascript/promises/promise.race.md)
- + [Promises: handle errors](/docs/javascript/promises/promises-handle-error.md)

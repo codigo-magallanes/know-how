@@ -1,4 +1,4 @@
-# Promises
+# Javascript: Promises
 
 ## new Promise()
 
