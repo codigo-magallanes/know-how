@@ -2,7 +2,7 @@
 
 Una pequeña guía que va creciendo conforme me voy documentando para mis proyectos.
 
-## Index
+## Indice
 
 - [CSS](./css/)
 - [git](./git/)
@@ -10,12 +10,12 @@ Una pequeña guía que va creciendo conforme me voy documentando para mis proyec
 - [node](./node/)
 
 
-## Code examples
+## Ejemplos de código
 
  - [Promise.all](/promise_all.html)
  - [GitHub theme](./index-original.md)
 
-## My projects
+## Proyectos
 
  + [projects](./projects/)
  + [Personal web](./projects/joseantoniogonzalezjerez.md)
