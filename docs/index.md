@@ -12,6 +12,7 @@ This is just a place to save part of the code I use in my projects and therefore
 ## Code examples
 
  - [Promise.all](/code/promise_all.html)
+ - [GitHub theme](./index-original.md)
 
 ## My projects
 
