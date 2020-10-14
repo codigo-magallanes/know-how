@@ -5,9 +5,9 @@ This is just a place to save part of the code I use in my projects and therefore
 ## Index
 
 - [CSS](./css/index.html)
-- [git](./git/index.md)
-- [JavaScript](./javascript/)
-- [node](./node/)
+- [git](/git/index.md)
+- [JavaScript](javascript/)
+- [node](./know-how/node/README.html)
 
 ## Code examples
 
