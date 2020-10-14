@@ -71,8 +71,8 @@ console.log(obj) // {}
 
  En este ejemplo _.finally()_ devuelve el objeto inicial (*{}*), igual que el _console.log()_ del final.
 
-  - [Ver código en ejecución](/code/promesas/promise-resolve-then-finally.html)
-  - [Ver código](/code/promesas/promise-resolve-then-finally.html)
+  - [Ver código en ejecución](../../code/promesas/promise-resolve-then-finally.html)
+  - [Ver código](/know-how/code/promesas/promise-resolve-then-finally.html)
 
 ### Más info
  - [Mozilla developer: .finally()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise/finally)
