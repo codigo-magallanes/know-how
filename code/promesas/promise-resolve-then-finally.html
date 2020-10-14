@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,23 +16,23 @@
 <script>
     const obj = {}
 
-Promise.resolve(obj)
-    .then(data => {
-        const obj = { ...data }
-        obj['uno'] = 'uno'
-        return obj
-    })
-    .then(obj => {
-        obj['dos'] = 'dos'
-        return obj
-    })
-    .then(obj => {
-        console.log('then: ',obj) // {uno: "uno", dos: "dos"}
-        return obj
-    })
-    .finally(console.log('finally: ',obj)) // { }
+    Promise.resolve(obj)
+        .then(data => {
+            const obj = { ...data }
+            obj['uno'] = 'uno'
+            return obj
+        })
+        .then(obj => {
+            obj['dos'] = 'dos'
+            return obj
+        })
+        .then(obj => {
+            console.log('then: ',obj) // {uno: "uno", dos: "dos"}
+            return obj
+        })
+        .finally(console.log('finally: ',obj)) // { }
 
-console.log(obj) // {}
+    console.log(obj) // {}
 </script>
 </body>
 </html>
