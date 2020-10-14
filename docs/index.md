@@ -4,17 +4,17 @@ This is just a place to save part of the code I use in my projects and therefore
 
 ## Index
 
-- [CSS](/docs/css/)
-- [git](/docs/git/)
-- [JavaScript](/docs/javascript/)
-- [node](/docs/node/)
+- [CSS](/css/)
+- [git](/git/)
+- [JavaScript](/javascript/)
+- [node](/node/)
 
 ## Code examples
 
- - [Promise.all](/code/promise_all.html)
+ - [Promise.all](/promise_all.html)
  - [GitHub theme](./index-original.md)
 
 ## My projects
 
- + [projects](/docs/projects/)
- + [Personal web](/docs/projects/joseantoniogonzalezjerez.md)
+ + [projects](/projects/)
+ + [Personal web](/projects/joseantoniogonzalezjerez.md)
