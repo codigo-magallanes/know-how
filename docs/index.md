@@ -4,8 +4,8 @@ This is just a place to save part of the code I use in my projects and therefore
 
 ## Index
 
-- [CSS](./css/)
-- [git](./git/)
+- [CSS](./css/index.html)
+- [git](./git/index.md)
 - [JavaScript](./javascript/)
 - [node](./node/)
 
