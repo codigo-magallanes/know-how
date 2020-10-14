@@ -9,6 +9,12 @@ This is just a place to save part of the code I use in my projects and therefore
 - [JavaScript](javascript/)
 - [node](./know-how/node/README.html)
 
+- [CSS](/docs/css/index.html)
+- [git](/git/index.md)
+- [JavaScript](./javascript/)
+- [node](/know-how/node/README.html)
+
+
 ## Code examples
 
  - [Promise.all](/promise_all.html)
