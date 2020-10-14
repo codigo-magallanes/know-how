@@ -5,9 +5,9 @@ Pretendo ir incorporando código también con ejemplos.
 
 ## Indice
 
-- [CSS](./docs/css/)
-- [git](./docs/git/)
-- [JavaScript](./docs/javascript/)
+- [CSS](/docs/css/)
+- [git](/docs/git/)
+- [JavaScript](know-how/docs/javascript/)
 - [node](./docs/node/)
 
 
