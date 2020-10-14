@@ -1,6 +1,6 @@
-## JavaScript
+# JavaScript
 
-### Indice
+## Indice
 
  + [Arrays](./arrays/)
  + [Cadenas](./cadenas/)

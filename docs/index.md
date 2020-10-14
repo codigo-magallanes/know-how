@@ -1,18 +1,13 @@
 # Know how
 
-This is just a place to save part of the code I use in my projects and therefore be able to re-use it in future developments
+Una pequeña guía que va creciendo conforme me voy documentando para mis proyectos.
 
 ## Index
 
-- [CSS](./css/index.html)
-- [git](/git/index.md)
+- [CSS](./css/)
+- [git](/git/)
 - [JavaScript](javascript/)
-- [node](./know-how/node/README.html)
-
-- [CSS](/docs/css/index.html)
-- [git](/git/index.md)
-- [JavaScript](./javascript/)
-- [node](/know-how/node/README.html)
+- [node](/node/README.html)
 
 
 ## Code examples
