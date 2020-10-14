@@ -15,7 +15,7 @@ Pretendo ir incorporando código también con ejemplos.
 ## Ejemplos de código
 
  - [Promise.all](./code/promise_all.html)
- - [GitHub theme demo](./docs/index-original.md)
+ - [GitHub theme demo](./index-original.md)
 
 ## Proyectos
 

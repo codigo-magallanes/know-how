@@ -1,6 +1,6 @@
-## Git: Actualizaciones del repositorio
+# Git: Actualizaciones del repositorio
 
-### Actualizar nuestro repositorio con GitHub
+## Actualizar nuestro repositorio con GitHub
 
 Para actualizar el código en nuestro repositorio local (PC) ejecutamos:
 
@@ -13,7 +13,7 @@ Si todo está ya actualizado recibimos en consola el mensaje:
 ``` sh
 Already up-to-date.
 ```
-### Comprueba los cambios en el código
+## Comprueba los cambios en el código
 
 Para comprobar que cambios se han hecho en el código se ejecuta:
 
@@ -46,7 +46,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 Podemos ver que tenemos 3 archivos modificados, uno eliminado y otro nuevo (*Untracked files: doc/git/git-github-vscode-manage-fork-repo.md*)
 
-### Selecciona los archivos para la próxima actualización
+## Selecciona los archivos para la próxima actualización
 
 Si hemos terminado con las modificaciones podemos ya seleccionar cuales son los archivos modificados que queremos actualizar en nuestro 'repo'. Esto se hace con el comando `git add`.
 
@@ -89,7 +89,7 @@ Si lo que queremos es pasar todos los cambios hechos en nuestro PC al repositori
 git add .
 ```
 
-### Empaqueta los cambios para subirlos al repositorio
+## Empaqueta los cambios para subirlos al repositorio
 
 El siguiente paso es agrupar los archivos para ser subidos al repositorio. Este paso añade también un _comentario_ con información sobre los cambios que aporta esta actualización. También proporciona información a otros colaboradores de los cambios y aportes del nuevo paquete.
 
@@ -106,7 +106,7 @@ Se ve como _git_ le asigna un **identificador:** _58f177d_, para poder localizar
 
 Esto sería suficiente para un repositorio local.
 
-### Actualizar un repositorio en GitHub
+## Actualizar un repositorio en GitHub
 
 Después del `git add` y del `git commit` podemos subir los cambios a nuestro _repositorio_ en _GitHub_.
 
@@ -144,7 +144,7 @@ Este comando nos devuelve la siguiente información:
     84ee068..58f177d  main -> main
     ```
 
-### Eliminar archivos del repositorio en GitHub
+## Eliminar archivos del repositorio en GitHub
 
  Todavía queda pendiente modificar el archivo que ha sido eliminado en la copia local del repositorio. Esto se podría haber incorporado al anterior _commit_ con un ```git add . ```, pero como aquí estamos para aprender lo haremos ahora con:
 
@@ -154,7 +154,7 @@ Este comando nos devuelve la siguiente información:
 
  Ahora está el cambio preparado para el siguiente _commit_.
 
- ### Añadir un archivo nuevo
+ ## Añadir un archivo nuevo
 
   Después de añadir un nuevo archivo a nuestro repositorio local debemos subirlo con un _commit_ para que aparezca en las nuevas versiones de nuestro código. Esto también se podía haber hecho anteriormente si hubiera optado por la opción ```git add . ```, pero lo voy a añadir de manera independiente con:
 
@@ -162,7 +162,7 @@ Este comando nos devuelve la siguiente información:
   docs/git/git-github-vscode-manage-fork-repo.md
   ```
 
-  ### Finaliza la actualización con una nueva versión de nuestro código o '_commit_'
+  ## Finaliza la actualización con una nueva versión de nuestro código o '_commit_'
 
    Si volvemos a comprobar el estado de nuestro proyecto veremos que aparecen estos últimos dos cambios pendientes de un _commit_:
 
@@ -190,7 +190,75 @@ Este comando nos devuelve la siguiente información:
     git push
     ```
 
-### Recursos utilizados y otros enlaces para profundizar más sobre este contenido
+## Consulta las actualizaciones
+
+ Existe un comando que nos da información de todos los _commits_:
+
+ ``` sh
+ git log
+ ```
+
+  La respuesta en la terminal es:
+
+  ``` sh
+  ommit 1711f90aaa7baab5812444728982e64211fe1b0c
+Author: JoseaScripts <programas.rpi@gmail.com>
+Date:   Tue Oct 13 23:06:49 2020 -0300
+
+    nuevo enlace y fuera index.md
+
+commit fe9906beab90fec1b936c3e8b4946d743e771ce7
+Author: JoseaScripts <programas.rpi@gmail.com>
+Date:   Tue Oct 13 23:01:32 2020 -0300
+
+    nuevo commit
+
+commit 859c546320a55df40097dfc72d5f2808a26e7967
+Author: JoseaScripts <programas.rpi@gmail.com>
+Date:   Tue Oct 13 22:58:20 2020 -0300
+
+    haciendo pruebas
+
+commit c1f3acbc98248110fec920db810abb792ca9d7d1
+Author: JoseaScripts <programas.rpi@gmail.com>
+Date:   Tue Oct 13 22:52:12 2020 -0300
+
+    aún hay más...
+```
+
+Para salir del listado presiona la tecla __q__.
+
+Se puede consultar otro listado más comprimido con:
+
+``` sh
+git log --pretty=oneline
+```
+
+La salida sería más o menos... 
+
+``` sh
+cd92405b573cd7ca58e4614dc33855d7018599e4 back to root
+66429be64bda0bf3aac79006d34ae21e8ba1eb31 cambio de ruta de pages
+4762378afca00c181967e063ddc9b98d2a2b9d6e links fixed
+d07d48dbf52283cc3f005f3508e6537d86efcd78 theme fix
+```
+
+## Ignora cambios en archivos determinados
+
+ Se puede indicar a __git__ una lista de archivos y directorios que no necesita observar por cambios. Este listado se guarda en la raiz del proyecto con el nombre ```.gitignore
+
+ Un ejemplo sería:
+
+ ```
+code/
+test.js
+API-KEY
+.vscode
+```
+
+Estos archivos y los contenidos en los directorios indicados no aparecerán en las listas de archivos modificados al ejecutar ```git status```.
+
+## Recursos utilizados y otros enlaces para profundizar más sobre este contenido
 
 + [Git commands from Linux Terminal](https://www.unixmen.com/use-git-commands-linux-terminal/)
 + [Earth Data Science: git commands](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-commands/)
