@@ -5,9 +5,9 @@ Una pequeña guía que va creciendo conforme me voy documentando para mis proyec
 ## Index
 
 - [CSS](./css/)
-- [git](/git/)
-- [JavaScript](javascript/)
-- [node](/node/README.html)
+- [git](./git/)
+- [JavaScript](./javascript/)
+- [node](./node/)
 
 
 ## Code examples
