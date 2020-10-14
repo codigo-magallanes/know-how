@@ -5,7 +5,7 @@ This is just a place to save part of the code I use in my projects and therefore
 ## Index
 
 - [CSS](/docs/css/)
-- [git](/docs/git/)
+- [git](/docs/git/index.md)
 - [JavaScript](/docs/javascript/)
 - [node](/docs/node/)
 
