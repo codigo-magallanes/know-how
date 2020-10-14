@@ -5,10 +5,10 @@ Pretendo ir incorporando código también con ejemplos.
 
 ## Indice
 
-- [CSS](/docs/css/)
-- [git](/docs/git/)
+- [CSS](/docs/css/index.html)
+- [git](/docs/git/index.md)
 - [JavaScript](know-how/docs/javascript/)
-- [node](./docs/node/)
+- [node](./docs/node/README.md)
 
 
 ## Ejemplos de código
