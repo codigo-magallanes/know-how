@@ -44,7 +44,7 @@ docs/git/git-github-vscode-manage-fork-repo.md
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Here we see modified files and one new file \_(Untracked files: doc/git/git-github-vscode-manage-fork-repo.md)
+Podemos ver que tenemos 3 archivos modificados, uno eliminado y otro nuevo (*Untracked files: doc/git/git-github-vscode-manage-fork-repo.md*)
 
 ### Selecciona los archivos para la próxima actualización
 
@@ -96,13 +96,13 @@ El siguiente paso es agrupar los archivos para ser subidos al repositorio. Este 
 Para esto ejecutamos el comando:
 
 ```sh
-$ git commit -m "nuevo contenido y traducción al español de contenido anterior. @codigo-magallanes, necesita revisión"
+$ git commit -m "nuevo contenido y traducción. @codigo-magallanes, necesita revisión"
 // respuesta
 [main 58f177d] nuevo contenido y traducción al español de contenido anterior. @codigo-magallanes, necesita revisión
 3 files changed, 38 insertions(+), 24 deletions(-)
 ```
 
-Se ve como '_git_' le asigna un **identificador:** _58f177d_, para poder localizarlo para hacer modificaciones o cancelarlo...
+Se ve como _git_ le asigna un **identificador:** _58f177d_, para poder localizarlo para hacer modificaciones o cancelarlo...
 
 Esto sería suficiente para un repositorio local.
 
@@ -190,7 +190,7 @@ Este comando nos devuelve la siguiente información:
     git push
     ```
 
-### Resources
+### Recursos utilizados y otros enlaces para profundizar más sobre este contenido
 
 + [Git commands from Linux Terminal](https://www.unixmen.com/use-git-commands-linux-terminal/)
 + [Earth Data Science: git commands](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-commands/)

@@ -78,6 +78,6 @@ The parameter '-b' creates the branch if it did not exist.
 Also be aware that the _checkout_ command is also used to undo a _Stage Change_
 
 
-### Recursos
+### Recursos utilizados y otros enlaces para profundizar más sobre este contenido
 
 + [Git commands from Linux Terminal](https://www.unixmen.com/use-git-commands-linux-terminal/)
