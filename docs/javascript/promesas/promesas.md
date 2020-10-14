@@ -1,6 +1,6 @@
-# Javascript: Promises
+# Javascript: Ejemplos de promesas
 
-## new Promise()
+## Declaración y consumo básico
 
  Al crear una promesa, se crea una función que toma dos parámetros. El primero se ejecuta al resolverse la _promesa_ de manera satisfactoria y el segundo al resolverse de forma no deseada. Estos resultados se pueden recuperar con otra función en un _.then()_.
 
@@ -53,7 +53,7 @@ p.then((res)=>{
 });
 ```
 
- Se pueden encadenar varios _.then()_ antes de que aparezca un _.catch()_ y éste aún recogerá el error si se produce:
+ Se pueden encadenar tantos _.then()_ como se quiera antes de llamar a _.catch()_ ya que éste aún recogerá el error si se produce:
 
  ``` js
  var t = Math.random()*10;
@@ -172,7 +172,9 @@ get('story.json').then(function(response) {
 ```
 
 ## Recursos
-[Google developers (es)](https://developers.google.com/web/fundamentals/primers/promises?hl=es)
-[anjandutta.com](https://anjandutta.com/promise-in-javascript-must-know-series-part-2/)
-[w3schools UK](https://w3schools.uk/javascript-promise/)
-[gomakethings.com](https://gomakethings.com/waiting-for-multiple-all-api-responses-to-complete-with-the-vanilla-js-promise.all-method/)
+
+ + [Mozilla developer: Guía de promesas](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Usar_promesas)
+ + [Google developers (es)](https://developers.google.com/web/fundamentals/primers/promises?hl=es)
+ + [anjandutta.com](https://anjandutta.com/promise-in-javascript-must-know-series-part-2/)
+ + [w3schools UK](https://w3schools.uk/javascript-promise/)
+ + [gomakethings.com](https://gomakethings.com/waiting-for-multiple-all-api-responses-to-complete-with-the-vanilla-js-promise.all-method/)
