@@ -1,4 +1,4 @@
-# JavaScript: Promise.resolve() y Promise.reject()
+# JavaScript: Promise.resolve( ) y Promise.reject( )
 
 ## Uso
 

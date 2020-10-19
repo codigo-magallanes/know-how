@@ -3,6 +3,7 @@
 ## Indice
 
  + [Más sobre promesas con ejemplos](./promesas.md)
+ + [Promise.resolve() y Promise.reject()](./promise.resolve.reject)
  + [Promise.all()](/docs/javascript/promises/promise.all.md)
  + [Promise.allSettled()](/docs/javascript/promises/promise.all-settled.md)
  + [Promise.race](/docs/javascript/promises/promise.race.md)
@@ -12,9 +13,9 @@
 
   Una promesa viene a ser una función que devuelve un _objeto_ si se dan ciertas condiciones y otro _objeto_ distinto si no se cumplen esas condiciones.
   
-  Las promesas necesitan declararse primero y luego se consumen. Existen, sin embargo, promesas ya predeclaradas que se pueden utilizar directamente en JavaScript como __fetch()__.
+  Las promesas necesitan ser declaradas antes de poder utlizarlas. Existen, sin embargo, promesas ya predeclaradas que se pueden utilizar directamente en JavaScript como __fetch()__.
 
-### Declaración
+## Declaración
 
   Se declara con ```new Promise()``` y toma como parámetro una función. Esta función determina las condiciones para que la promesa se resuelva satisfactoriamente (resolve) o no (reject).
 
@@ -69,7 +70,7 @@ Promise.resolve(obj)
 console.log(obj) // {}
 ```
 
- En este ejemplo _.finally()_ devuelve el objeto inicial (*{}*), igual que el _console.log()_ del final.
+ En este ejemplo _.finally ( )_ devuelve el objeto inicial *{ }*, igual que el _console.log ( )_ del final.
 
   - [Ver código en ejecución](../../../code/promesas/promise-resolve-then-finally.html)
   - [Ver código](/know-how/code/promesas/promise-resolve-then-finally.html)
