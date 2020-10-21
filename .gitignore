@@ -1,5 +1,5 @@
-/js
-/json
-/promise
-
-.github
+_site/
+.jekyll-cache/
+js/
+json/
+promise/

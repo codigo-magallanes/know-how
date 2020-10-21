@@ -1,6 +1,7 @@
 # Know How
 
 ## v0.1.4
+ - remote_theme:
 
  ### Nuevo
  - Uso de _theme_ the GitHub
