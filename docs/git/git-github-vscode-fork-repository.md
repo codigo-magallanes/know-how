@@ -75,13 +75,13 @@ After clicking the __Fork__ button we are redirected to the new repo in our acco
     * [new branch]     main    ->  upstream/main
     ```
 
- 1. Merge any changes from the original repo to the project clone in my PC, accordingly to the info above, with: 
+ 1. Combina nuestra _rama actual_ en el PC con la _main_ en el repositorio remoto _upstream_:
 
     ``` sh
     git merge upstream/main
     ```
 
- Now the files in my PC are updated with the new changes from the original repo.
+ Ya tengo actualizado mi repositorio local con las actualizaciones del servidor.
 
  In VS Code there is a new notification of a _commit_ pendant to be uploaded to my repo.
  I click the button to __Synchronize Changes__, and now the original repo, the fork in my account and the clone in my PC are all _synchronized_.

@@ -258,6 +258,18 @@ API-KEY
 
 Estos archivos y los contenidos en los directorios indicados no aparecerán en las listas de archivos modificados al ejecutar ```git status```.
 
+## Devolver mi repositorio local al estado de mi repositorio remoto (GitHub)
+
+ Si llego a perderme y necesito recuperar el último estado con el que actualicé el repositorio remoto debo ejecutar:
+
+ ``` sh
+ git fetch <REPO REMOTO>
+ git reset --hard <REPO REMOTO>/<RAMA>
+ # Por lo general viene a ser:
+ git fetch origin
+ git reset --hard origin/main
+ ```
+ 
 ## Recursos utilizados y otros enlaces para profundizar más sobre este contenido
 
 + [Git commands from Linux Terminal](https://www.unixmen.com/use-git-commands-linux-terminal/)

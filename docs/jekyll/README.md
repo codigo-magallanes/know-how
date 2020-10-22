@@ -1,8 +1,15 @@
 # Jekyll
 
-Es un paquete o 'gema' de _Ruby_ que permite crear documentación y blogs de forma rápida y más o menos sencilla. Tiene además la ventaja de que cuenta con una interesante integración con las __git-pages__ de _GitHub_.
+Es un paquete o 'gema' de _Ruby_ que permite crear documentación y blogs de forma rápida y más o menos sencilla. Tiene además la ventaja de que cuenta con una interesante integración con las _gh-pages_ de __GitHub__.
 
-Debido a las limitaciones que aplica _GitHub_ en el número de actualizaciones de las __git-pages__ se hace casi imprescindible crear un proyecto en nuestro equipo para ir haciendo los tests necesarios para que nuestro _sitio_ tenga el aspecto que queremos.
+__GitHub__ aplica ciertas limitaciones en el número de actualizaciones en las _gh-pages_.
+Estas limitaciones no son ciertamente un problema en el caso de que solo queramos actualizar el contenido del sitio, bien mediante _documentos_ o _posts_.
+
+Si nuestro proyecto va a estar más enfocado en crear o adaptar una plantilla a nuestro gusto que en generar contenido se hace necesario crear un proyecto en nuestro equipo para poder hacer todas las pruebas necesarias para que nuestro _sitio_ consiga el aspecto que queremos.
+
+## Índice
+ - [Instalación de Ruby](./instalacion-ruby.html)
+ - [Plantillas remotas para GitHub](./remote-theme.html)
 
 ## Instalación de Ruby
 
