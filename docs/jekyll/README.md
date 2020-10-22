@@ -9,7 +9,7 @@ Si nuestro proyecto va a estar más enfocado en crear o adaptar una plantilla a 
 
 ## Índice
  - [Instalación de Ruby](./instalacion-ruby.html)
- - [Plantillas remotas para GitHub](./remote-theme.html)
+ - [Plantillas remotas para GitHub](./temas-remotos.html)
 
 ## Instalación de Ruby
 

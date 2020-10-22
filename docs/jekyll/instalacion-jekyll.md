@@ -48,8 +48,9 @@ mkdir <PROYECTO>
 cd <PROYECTO>
 nano Gemfile
 ```
-
-Añadimos todo lo que queremos instalar para este proyecto, p. ej.:
+### Proyecto con tema instalado de Ruby
+Añadimos todo lo que queremos instalar para este proyecto.
+En este caso instalamos el tema _minima_ que viene preparado en __Ruby__:
 
 ``` Gemfile
 source "https://rubygems.org"
@@ -59,15 +60,37 @@ gem "minima"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
-  gem "github-pages"
 end
 ```
 
-Ahora ejecutamos;
+## Proyecto con tema predeterminado de GitHub
+Si lo que queremos es utilizar uno de los temas predeterminado por __GitHub__ entonces tendremos que eliminar el tema _minima_ y apadir el plugin _github-pages_:
+
+``` Gemfile
+source "https://rubygems.org"
+
+gem "jekyll"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "github-pages" 
+end
+```
+
+En este caso tendré que añadir el tema al archivo de configuración:```nano _config.yml```:
+
+```
+theme: jekyll-theme-midnight
+```
+
+## Finalmente cargamos los paquetes
+
+Ahora instalamos los paquetes indicados en __Gemfile__ con __bundler__:
 
 ``` sh
 bundle install
 ```
+
 Si ocurre alguna colisión en las versiones de _las gemas_ instaladas, para arreglarlo podemos ejecutar:
 
 ``` sh
@@ -77,6 +100,10 @@ bundle update
 Este comando reinstalará todas las aplicaciones atendiendo a su compatibilidad entre diferentes versiones de los mismos. Puede ser una tarea bastante lenta.
 
 Si queremos ver algo tenemos que crear los archivos ```_config.yml``` y ```index.md``` con un mínimo de contenido.
+
+## Temas remotos de Jekyll
+
+El proceso para instalar un _tema remoto_ viene recogido en [temas-remotos.md](./temas-remotos.html)
 
 ## Recursos comsultados
 

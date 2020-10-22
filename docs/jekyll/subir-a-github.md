@@ -2,7 +2,7 @@
 
 ## Crear repositorio local
 
-Desde el sitio de GitHub creo el repositorio y la rama _gh-pages_
+Desde el sitio de GitHub creo el repositorio y la rama _gh-pages_.
 
 Desde dentro del directorio del proyecto creo el repositorio, cambio de _rama_ y por último añado el repositorio de GitHub:
 
@@ -26,5 +26,5 @@ Para subir los archivos de mi repositorio local:
 ``` sh
 git add .
 git commit -m "first upload"
-git push orign gh-pages
+git push origin gh-pages
 ```
