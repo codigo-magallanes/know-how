@@ -9,7 +9,7 @@ Pretendo ir incorporando código también con ejemplos.
 - [git](./docs/git/)
 - [JavaScript](./docs/javascript/)
 - [node](./docs/node/)
-- [Jekyll](./docs/jekyll)
+- [Jekyll](./docs/jekyll/)
 + [Markdown](./docs/markdown/)
 
 
