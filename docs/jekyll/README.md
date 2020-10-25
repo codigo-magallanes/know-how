@@ -1,7 +1,3 @@
----
-categories: ["jekyll", "github"]
----
-
 # Jekyll
 
 Es un paquete o 'gema' de _Ruby_ que permite crear documentación y blogs de forma rápida y más o menos sencilla. Tiene además la ventaja de que cuenta con una interesante integración con las _gh-pages_ de __GitHub__.
