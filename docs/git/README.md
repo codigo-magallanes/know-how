@@ -1,5 +1,13 @@
 # Git
 
+## _Índice
+
+{% for git in site.git %}
+  <div class="git">
+    <h2><a href="{{ git.url }}">{{ git.title }}</a></h2>
+  </div>
+{% endfor %}
+
 ## Nuevo Proyecto
 
 Se puede crear un nuevo proyecto de diferentes maneras con diferentes herramientas:

@@ -10,7 +10,7 @@ git pull
 
 Si todo está ya actualizado recibimos en consola el mensaje:
 
-``` sh
+```sh
 Already up-to-date.
 ```
 ## Comprueba los cambios en el código
@@ -113,27 +113,28 @@ Después del `git add` y del `git commit` podemos subir los cambios a nuestro _r
 Para comprobar los datos del repositorio podemos ejecutar:
 
 ```sh
-git remote -v
+ git remote -v
 ```
 
 En mi caso, la respuesta es:
 
-```sh $ git remote -v
-origin	git@github.com:YoAmo/know-how.git (fetch)
-origin	git@github.com:YoAmo/know-how.git (push)
+```sh
+ $ git remote -v
+ origin	git@github.com:YoAmo/know-how.git (fetch)
+ origin	git@github.com:YoAmo/know-how.git (push)
 ```
 
 Si todo está bien subimos los cambios con:
 
 ```sh
-git push origin main
+ git push origin main
 ```
 
 Siendo _origin_ la referencia al repositorio y _main_ la rama donde se sube.
 
 Este comando nos devuelve la siguiente información:
 
-    ``` sh
+``` sh
     Counting objects: 7, done.
     Delta compression using up to 2 threads.
     Compressing objects: 100% (7/7), done.
@@ -142,7 +143,7 @@ Este comando nos devuelve la siguiente información:
     remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
     To github.com:YoAmo/know-how.git
     84ee068..58f177d  main -> main
-    ```
+```
 
 ## Eliminar archivos del repositorio en GitHub
 
@@ -166,29 +167,29 @@ Este comando nos devuelve la siguiente información:
 
    Si volvemos a comprobar el estado de nuestro proyecto veremos que aparecen estos últimos dos cambios pendientes de un _commit_:
 
-   ``` sh
+   ```sh
    git status
    ```
 
-    La respuesta al _status_ es:
+La respuesta al _status_ es:
 
-    ``` sh
-    On branch main
-    Your branch is up-to-date with 'origin/main'.
-    Changes to be committed:
-    (use "git reset HEAD <file>..." to unstage)
+```sh
+ On branch main
+ Your branch is up-to-date with 'origin/main'.
+ Changes to be committed:
+ (use "git reset HEAD <file>..." to unstage)
 
-        renamed:    docs/git/git-vscode-manage-fork-repo.md -> docs/git/git-github-vscode-manage-fork-repo.md
-    ```
+ renamed:    docs/git/git-vscode-manage-fork-repo.md -> docs/git/git-github-vscode-manage-fork-repo.md
+```
 
     _git_ ha entendido que en vez de haber creado un nuevo archivo y eliminado otro, lo que hemos hecho es cambiar el nombre de un archivo que ya estaba en el proyecto.
 
     Lo único que falta es hacer el _commit_ para guardar los cambios en la repo:
 
-    ``` sh
-    git commit -m "nombre de archivo modificado"
-    git push
-    ```
+```sh
+ git commit -m "nombre de archivo modificado"
+ git push
+```
 
 ## Consulta las actualizaciones
 
@@ -200,7 +201,7 @@ Este comando nos devuelve la siguiente información:
 
   La respuesta en la terminal es:
 
-  ``` sh
+```sh
   ommit 1711f90aaa7baab5812444728982e64211fe1b0c
 Author: JoseaScripts <programas.rpi@gmail.com>
 Date:   Tue Oct 13 23:06:49 2020 -0300
@@ -230,17 +231,19 @@ Para salir del listado presiona la tecla __q__.
 
 Se puede consultar otro listado más comprimido con:
 
-``` sh
-git log --pretty=oneline
+```sh
+
+ git log --pretty=oneline
+
 ```
 
 La salida sería más o menos... 
 
-``` sh
-cd92405b573cd7ca58e4614dc33855d7018599e4 back to root
-66429be64bda0bf3aac79006d34ae21e8ba1eb31 cambio de ruta de pages
-4762378afca00c181967e063ddc9b98d2a2b9d6e links fixed
-d07d48dbf52283cc3f005f3508e6537d86efcd78 theme fix
+```sh
+ cd92405b573cd7ca58e4614dc33855d7018599e4 back to root
+ 66429be64bda0bf3aac79006d34ae21e8ba1eb31 cambio de ruta de pages
+ 4762378afca00c181967e063ddc9b98d2a2b9d6e links fixed
+ d07d48dbf52283cc3f005f3508e6537d86efcd78 theme fix
 ```
 
 ## Ignora cambios en archivos determinados
@@ -249,11 +252,11 @@ d07d48dbf52283cc3f005f3508e6537d86efcd78 theme fix
 
  Un ejemplo sería:
 
- ```
-code/
-test.js
-API-KEY
-.vscode
+```sh
+ code/
+ test.js
+ API-KEY
+ .vscode
 ```
 
 Estos archivos y los contenidos en los directorios indicados no aparecerán en las listas de archivos modificados al ejecutar ```git status```.
@@ -262,15 +265,16 @@ Estos archivos y los contenidos en los directorios indicados no aparecerán en l
 
  Si llego a perderme y necesito recuperar el último estado con el que actualicé el repositorio remoto debo ejecutar:
 
- ``` sh
+```sh
  git fetch <REPO REMOTO>
  git reset --hard <REPO REMOTO>/<RAMA>
  # Por lo general viene a ser:
  git fetch origin
  git reset --hard origin/main
- ```
+```
  
 ## Recursos utilizados y otros enlaces para profundizar más sobre este contenido
 
 + [Git commands from Linux Terminal](https://www.unixmen.com/use-git-commands-linux-terminal/)
 + [Earth Data Science: git commands](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-commands/)
+
