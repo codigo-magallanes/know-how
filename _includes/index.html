@@ -11,12 +11,13 @@
   {% for pages in site.pages %}
     {% if pages.dir == page.dir %}
      <li class="enlace">
-       <a href="{{ site.url }}/{{pages.url}}">
+       <a href="{{ site.url }}{{ pages.url }}">
         {% if pages.url == "/feed.xml" %}
           RSS
         {% endif %}
           {{ pages.title }}
-        </a></li>
+        </a>
+      </li>
     {% endif %}
    {% endfor %}
 </ol>
