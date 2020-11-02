@@ -20,23 +20,23 @@ Pretendo ir incorporando código también con ejemplos.
 
 ## Indice
 
-- [CSS](./docs/css/)
-- [git](./docs/git/)
-- [JavaScript](./docs/javascript/)
-- [node](./docs/node/)
-- [Jekyll](./docs/jekyll/)
-+ [Markdown](./docs/markdown/)
+- [CSS](/docs/css/)
+- [git](/docs/git/)
+- [JavaScript](/docs/javascript/)
+- [node](./node/)
+- [Jekyll](./jekyll/)
++ [Markdown](./markdown/)
 
 
 ## Ejemplos de código
 
- - [Promise.all](./code/promise_all.html)
+ - [Promise.all](./promise_all.html)
  - [GitHub theme demo](./index-original.md)
 
 ## Proyectos
 
- + [projects](./docs/projects/)
- + [Personal web](./docs/projects/joseantoniogonzalezjerez.md)
+ + [projects](./projects/)
+ + [Personal web](./projects/joseantoniogonzalezjerez.md)
 
 
 

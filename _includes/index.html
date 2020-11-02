@@ -1,0 +1,22 @@
+{% include parent.html %}
+
+<h2>Índice</h2>
+
+<ol id="indice">
+
+  {% if parent != "" %}
+    <li class="enlace"><a href="{{ parent }}">{{ parent }}</a></li>
+  {% endif %}
+
+  {% for pages in site.pages %}
+    {% if pages.dir == page.dir %}
+     <li class="enlace">
+       <a href="{{pages.url}}">
+        {% if pages.url == "/feed.xml" %}
+          RSS
+        {% endif %}
+          {{ pages.title }}
+        </a></li>
+    {% endif %}
+   {% endfor %}
+</ol>

@@ -1,0 +1,7 @@
+{% assign dir = page.dir | split: "/" %}
+
+{% for route in dir %}
+    {% if route != dir.last %}
+        {% assign parent = parent | append: route | append: "/" %}
+    {% endif %}
+{% endfor %}
