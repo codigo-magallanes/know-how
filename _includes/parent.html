@@ -1,4 +1,4 @@
-{% assign dir = page.dir | split: "/" %}
+{% assign dir = page.url | split: "/" %}
 
 {% for route in dir %}
     {% if route != dir.last %}
