@@ -11,7 +11,7 @@
   {% for pages in site.pages %}
     {% if pages.dir == page.dir %}
      <li class="enlace">
-       <a href="{{ site.url }}{{ pages.url }}">
+       <a href="./{{ pages.url | remove: pages.dir }}">
         {% if pages.url == "/feed.xml" %}
           RSS
         {% endif %}
