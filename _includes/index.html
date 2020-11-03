@@ -2,7 +2,12 @@
 <h2>Índice</h2>
 
 {% include breadcrumbs.html %}
-{{ site.base_url }}{{ site.baseurl }}{% link docs/git/README.md %}
+<div>
+  site.base_url: {{ site.base_url }}
+</div>
+<div>
+  {{ site.baseurl }}
+</div>{% link docs/git/README.md %}
 <ol id="indice">
 
   {% if parent != "" %}
