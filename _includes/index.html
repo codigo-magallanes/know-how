@@ -1,11 +1,13 @@
-{% include parent.html %}
 
 <h2>Índice</h2>
+
+{% include breadcrumbs.html %}
 
 <ol id="indice">
 
   {% if parent != "" %}
-    <li class="enlace"><a href="{{ parent }}">{{ parent }}</a></li>
+    <li class="enlace"><a href="../">{{ parent }}</a></li>
+    <li class="enlace"><a href="./">{{ self }}</a></li>
   {% endif %}
 
   {% for pages in site.pages %}
