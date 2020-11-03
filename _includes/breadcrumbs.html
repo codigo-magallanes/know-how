@@ -1,7 +1,7 @@
 <div id="breadcrumbs">
     <div>page.url: {{ page.url }}</div>
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-    <a href="/">Inicio</a>
+    <a href="/{{ site.baseurl }}">Inicio</a>
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.last %}
         / {{ page.title }}
