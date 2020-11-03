@@ -2,12 +2,10 @@
 <h2>Índice</h2>
 
 {% include breadcrumbs.html %}
+
 <div>
-  site.base_url: {{ site.base_url }}
+  <a href="{{ site.baseurl }}{% link docs/git/README.md %}">enlace de prueba</a>
 </div>
-<div>
-  {{ site.baseurl }}
-</div>{% link docs/git/README.md %}
 <ol id="indice">
 
   {% if parent != "" %}
