@@ -32,15 +32,11 @@ After clicking the __Fork__ button we are redirected to the new repo in our acco
  - Open a terminal in the directory where you want to copy the repo.
  - Execute the command:
 
- 
-
 ``` sh
  git clone <CODE COPIED FROM GITHUBS PAGE>
  ```
 
  You can check everything is OK with:
-
- 
 
 ``` sh
  cd <REPOS DIRECTORY>
@@ -49,29 +45,11 @@ After clicking the __Fork__ button we are redirected to the new repo in our acco
 
  This command will output the origin address to your repo for _fetches_ and _pushes_
  
-
 ``` sh
  //output
  origin git@github.com:<USER>/<REPO>.git (fetch)
  origin git@github.com:<USER>/<REPO>.git (push)
 ```
-
-### Decide the branch you will be working with
-
-When I create a new project in my computer '_git_' still creates the __master__ branch as default. GitHub has decided to change the default branch to __main__ so, in case we want to change from _master_ to _main_ branches from the terminal we do:
-
-``` sh
-// to check the actual branch
-git branch
-// to change branch to master
-git checkout master
-// output if exists -> Already on 'master'. Your branch is up-to-date with ...
-// output if it does not match to our branch -> error: pathspec 'master' did not match any file....
-git checkout -b main
-```
-
-
-The parameter '-b' creates the branch if it did not exist.
 
 ### Connect your local repo to the remote repo
 
@@ -97,13 +75,13 @@ The parameter '-b' creates the branch if it did not exist.
     * [new branch]     main    ->  upstream/main
     ```
 
- 1. Merge any changes from the original repo to the project clone in my PC, accordingly to the info above, with: 
+ 1. Combina nuestra _rama actual_ en el PC con la _main_ en el repositorio remoto _upstream_:
 
     ``` sh
     git merge upstream/main
     ```
 
- Now the files in my PC are updated with the new changes from the original repo.
+ Ya tengo actualizado mi repositorio local con las actualizaciones del servidor.
 
  In VS Code there is a new notification of a _commit_ pendant to be uploaded to my repo.
  I click the button to __Synchronize Changes__, and now the original repo, the fork in my account and the clone in my PC are all _synchronized_.

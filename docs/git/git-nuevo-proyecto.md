@@ -51,12 +51,19 @@ And to check the project:
 ```sh
 git status
 ```
+Si no ha habido cambios mostrará:
+
+``` sh
+On branch main
+Your branch is up-to-date with 'origin/main'.
+nothing to commit, working tree clean
+```
 
 ### Select the default branch
 
-When I create a new project in my computer '_git_' still creates the __master__ branch as default. GitHub has decided to change the default branch to __main__ so, in case we want to change from _master_ to _main_ branches from the terminal we do:
+When I create a new project in my computer '_git_' still creates the **master** branch as default. GitHub has decided to change the default branch to **main** so, in case we want to change from _master_ to _main_ branches from the terminal we do:
 
-``` sh
+```sh
 // to check the actual branch
 git branch
 // to change branch to master
@@ -66,24 +73,11 @@ git checkout master
 git checkout -b main
 ```
 
-It a branch with that name does not exist it prompts a message to enable you to create it.
+The parameter '-b' creates the branch if it did not exist.
 
-### Update files from repo
+Also be aware that the _checkout_ command is also used to undo a _Stage Change_
 
-To update the files from the repo:
 
-``` sh
-git pull
-```
+### Recursos utilizados y otros enlaces para profundizar más sobre este contenido
 
-### Upload files to repo
-
-To upload new code to the repo:
-
-```sh
-git push
-```
-
-### Resources
-
-- [Git commands from Linux Terminal](https://www.unixmen.com/use-git-commands-linux-terminal/)
++ [Git commands from Linux Terminal](https://www.unixmen.com/use-git-commands-linux-terminal/)

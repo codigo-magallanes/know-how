@@ -1,0 +1,6 @@
+{% assign dir = page.url | split: "/" %}
+
+{% for route in dir %}
+        {% assign parent = parent | append: route | append: "/" %}
+    {% assign self = parent | remove: route %}
+{% endfor %}

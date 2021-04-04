@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promesas</title>
+    <link rel="stylesheet" href="/know-how/code/assets/css/gist-dark.css">
+</head>
+<body>
+    <h1>Promesas</h1>
+      
+  <h2>Código completo</h2>
+
+  <script src="https://gist.github.com/YoAmo/7ee452f77bdc817be4d99600af144f23.js"></script>
+
+<script>
+    const obj = {}
+
+    Promise.resolve(obj)
+        .then(data => {
+            const obj = { ...data }
+            obj['uno'] = 'uno'
+            return obj
+        })
+        .then(obj => {
+            obj['dos'] = 'dos'
+            return obj
+        })
+        .then(obj => {
+            console.log('then: ',obj) // {uno: "uno", dos: "dos"}
+            return obj
+        })
+        .finally(console.log('finally: ',obj)) // { }
+
+    console.log(obj) // {}
+</script>
+</body>
+</html>

@@ -1,4 +1,36 @@
-# Know How
+# CHANGELOG
+
+## v0.1.5
+
+### Configuration
+
+- theme: jekyll-theme-minimal
+- lang: es-ES
+
+### Modified
+
+#### Default.html
+ - Sidebar
+    + Smaller icon
+    + Text to the side of the icon
+    + Some options moved to foot
+    + More space for navigation index
+
+#### style.scss
+
+  - New styles for lists for navigation
+  - New styles for header titles
+
+### New
+
+ - Navigation
+ - New index.md file in /docs/
+
+## v0.1.4
+ - remote_theme:
+
+ ### Nuevo
+ - Uso de _theme_ the GitHub
 
 ## v0.1.3
 

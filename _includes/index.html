@@ -1,0 +1,28 @@
+
+<h2>Índice</h2>
+
+{% include breadcrumbs.html %}
+
+<div>
+  <a href="{{ site.baseurl }}{% link docs/git/README.md %}">enlace de prueba</a>
+</div>
+<ol id="indice">
+
+  {% if parent != "" %}
+    <li class="enlace"><a href="../">{{ parent }}</a></li>
+    <li class="enlace"><a href="./">{{ self }}</a></li>
+  {% endif %}
+
+  {% for pages in site.pages %}
+    {% if pages.dir == page.dir %}
+     <li class="enlace">
+       <a href="./{{ pages.url | remove: pages.dir }}">
+        {% if pages.url == "/feed.xml" %}
+          RSS
+        {% endif %}
+          {{ pages.title }}
+        </a>
+      </li>
+    {% endif %}
+   {% endfor %}
+</ol>

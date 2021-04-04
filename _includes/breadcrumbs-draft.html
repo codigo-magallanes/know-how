@@ -1,0 +1,10 @@
+{% assign dir = page.url | split: "/" %}
+
+{% capture root %}
+    <a href="/">{{ dir }}</a>
+{% endcapture %}
+
+
+{% for route in dir %}
+        {% assign breadcrumbs = root | append: "/" | append: route %}
+{% endfor %}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadena de funciones con Promise.resolve()</title>
+</head>
+<body>
+    <h1>Cadena de funciones con Promise.resolve()</h1>
+    
+    <h2>Código</h2>
+    
+    <script src="https://gist.github.com/YoAmo/d4e7d300133a46383c656198469c4ec8.js"></script>
+
+    <script>
+        const obj = {cero: "cero"}
+        const obj2 = {}
+
+        const funcion1 = (data) => {
+            data["uno"] = "uno"
+            console.log('funcion1: ', data)
+            return data
+        }
+
+        const funcion2 = (data) => {
+            data["dos"] = "dos"
+            console.log('funcion2: ', data)
+            return data
+        }
+
+        const funcion3 = (data) => {
+            data["tres"] = "tres"
+            console.log('funcion3: ', data)
+            return data
+        }
+
+        const funcion4 = (data) => {
+            data["cuatro"] = "cuatro"
+            console.log('funcion4: ', data)
+            return data
+        }
+
+        const muestraDatos = (data) => {
+            const el = document.createElement('pre')
+            el.innerHTML = JSON.stringify(data, null, 2)
+            document.querySelector('body').appendChild(el)
+        }
+
+        const aplicarAsync = (acc,val) => acc.then(val);
+        
+        const componerAsync = (...funcs) => x => funcs.reduce(aplicarAsync, Promise.resolve(x));
+        
+        const astroPixelsFuncs = componerAsync(funcion1, funcion2, funcion3, muestraDatos);
+        const calendario365Funcs = componerAsync(funcion1, funcion2, funcion4, muestraDatos);
+        
+        const astroPixelsData = astroPixelsFuncs(obj);
+
+        const calendario365 = calendario365Funcs(obj2);
+
+    </script>
+</body>
+</html>

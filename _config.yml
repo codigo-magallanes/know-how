@@ -1,0 +1,18 @@
+theme: jekyll-theme-minimal
+
+title: Tanit
+logo: /assets/images/tanit.gif
+author:
+  name: GitHub User
+  email: your-email@domain.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Diosa Cartaginesa venerada en Ibiza y otros lugares costeros del Mediterráneo.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+lang: es-ES
+
+# generate social links in footer
+social_links:
+  twitter: jekyllrb
+  github:  jekyll

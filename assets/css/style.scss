@@ -1,0 +1,35 @@
+---
+---
+@import "jekyll-theme-minimal";
+
+
+/**
+* custom CSS 
+*/
+header ul, header li, header ol {
+    all: unset;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+header h2 {
+    margin: 1rem 0 0 .75rem
+}
+#indice {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+.enlace {
+    display: list-item;
+    color: blue;
+}
+.site-description {
+    font-size: .75em;
+    display: inline;
+}

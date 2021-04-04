@@ -1,4 +1,4 @@
-## Arrays
+# Arrays
 
-### Indice
+## Indice
  + [Métodos](./metodos.md)
