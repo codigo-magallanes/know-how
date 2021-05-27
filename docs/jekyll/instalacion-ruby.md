@@ -22,7 +22,7 @@ sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison b
 Una vez las dependencias se han instalado descargamos el programa con:
 
 ``` sh
-curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
 ```
 
 Y antes de instalarlo necesitamos añadir algunas líneas al archivo **~/.bashrc**:
