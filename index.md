@@ -1,9 +1,15 @@
-# Índice
+# Readme
 
-Una pequeña guía que va creciendo conforme me voy documentando para mis proyectos.
-Pretendo ir incorporando código también con ejemplos.
+Another tutorial that will grow as I work in my projects
+It contains code and examples.
 
-## Categorías
+## Language
+
+I was hesitant about writing this tutorial in English or Spanish. Finally I decided to do it in English since I understand that if you write code you will understand English, no matter your mother languate.
+
+In any case I will welcome any comments in Spanish as well.
+
+## Categories
 
 <div id="archives">
 {% for category in site.categories %}
@@ -18,7 +24,7 @@ Pretendo ir incorporando código también con ejemplos.
 {% endfor %}
 </div>
 
-## Indice
+## Index
 
 - [CSS](./docs/css/)
 - [git](./docs/git/)
@@ -28,19 +34,18 @@ Pretendo ir incorporando código también con ejemplos.
 + [Markdown](./docs/markdown/)
 
 
-## Ejemplos de código
+## Code examples
 
  - [Promise.all](./code/promise_all.html)
  - [GitHub theme demo](./index-original.md)
 
-## Proyectos
+## My projects
 
  + [projects](./docs/projects/)
  + [Personal web](./docs/projects/joseantoniogonzalezjerez.md)
 
 
-
-## Páginas
+## Pages
 
 <ol>
   {% for pages in site.pages %}
