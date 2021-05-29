@@ -4,7 +4,9 @@ Once we fork a repo we have to be aware of what our actions are causing.
 
 ### Pendant updates from the main repo
 
- We need to be aware if there have been changes in the _original repo_ that could compromise our new code.
+This has been updated in [github](https://github.com):
+
+<!--  We need to be aware if there have been changes in the _original repo_ that could compromise our new code.
 
   + Check in the _fork_ for __Pull requests__
   + Click on the __Pull request__ link
@@ -15,7 +17,21 @@ Once we fork a repo we have to be aware of what our actions are causing.
   + __Merge pull request__
   + __Confirm merge__
 
-  Last we need to _Syncronize Changes__ in the local repo in the PC.
+  Last we need to _Syncronize Changes__ in the local repo in the PC. -->
+
+  #### Check for updates
+
+  Under the line containing the _branches_, look for a line like:
+
+  ```
+  This branch is 5 commits behind <main project name:branch>
+  ```
+
+  If you see the line click in **Fetch upstream**.
+
+  Now you can check the changes clicling **Compare**.
+
+  Or you can agree to the changes with **Fetch and merge**.
 
 ### Making changes in your PC and updating our repo
 
