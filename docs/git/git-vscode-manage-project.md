@@ -16,10 +16,6 @@ Once accepted a broser window opens asking for permission to connect to [GitHub]
 
 In my case, the project was uploaded to the _master branch_ in _GitHub_.
 
-### Open project from PC
-
-_Right-click_ on the directory and check on _Open with another application_. Now select VS Code from the list.
-
 #### Change master branch to main
 
 **GitHub** has recently moved their default _project branch_ from **master** to **main** to avoid racist language, but at the momment the git package still uses **master** as the default branch on our projects.
@@ -30,6 +26,20 @@ One easy way to do this with VS Code is selecting the options menu and clicking 
 Once the project directory is opened with VS Code we can see on the left of the status bar the branch of the project we are registered to. If it is _master_ we click on it and a config pop up will appear.
 
 Click on the _main branch_ from the configuration menu. If it is not available close the window and try again.
+
+### Clone existing project
+
+ - Open VS Code
+ - Click on **Source Control** on the left
+ - Click on **Clone**
+ - Click **Clone from GitHub**
+ - Select where you want to download de project.
+ - Open the project with VS Code
+
+### Open project from PC
+
+_Right-click_ on the directory and check on _Open with another application_. Now select VS Code from the list.
+
 
 ### Update files from GitHub to your local repo
 
