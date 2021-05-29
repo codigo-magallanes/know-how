@@ -53,9 +53,11 @@ On the left of VS Code, there is a _menu bar_ with some Icons. Click on the '_So
 
 On the input above the _staged files_ names write the message you want to add to the _commit_ and then click on the **check icon**.
 
-### Synchronize changes from VS Code
+Finally, to update the file in the server _(github)_, go to the menu at the top (...) and select pull.
+
+**Summarized:**
 
 - Stage Changes of Files
 - Add Commit to those files and add them to the queue
 - Repeat for every single or group of files that were modified
-- Synchronize
+- Pull
